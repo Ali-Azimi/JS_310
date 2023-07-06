@@ -1,0 +1,24 @@
+<script>
+  // form 1 => literal
+  let student = {
+    name: "ali",
+    family: "kianni",
+    age: 30,
+    marriad: false,
+  };
+
+  //   from 2 constructor
+  function Student(name, family, age, married) {
+    this.name = name;
+    this.family = family;
+    (this.age = age), (this.marriad = married);
+  }
+
+  let student1 = new Student("sana", "samin", 30, false);
+
+  console.log(student1);
+  
+
+
+
+</script>
